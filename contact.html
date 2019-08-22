@@ -12,31 +12,33 @@
 </head>
 
 <body>
+<div class="mainwrapper">
 
-    <div>
-        <h1 class="nameTab">Jandy Stephens</h1>
-    </div>
+           <nav class="navBar">
+                <h1 class="nameTab">Jandy Stephens</h1>
+                    <div class="links">
+                        <a href="index.html">About Me</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+            </nav>
 
     <div class="maincontent">
         <h2>Contact</h2>
         <form>
-            Name
-            <br>
-            <input>
-            <br>
-            Email
-            <br>
-            <input>
-            <br>
-            Message
-            <br>
-            <input>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Jane Smith">
+            <label for="email">Email</label>
+            <input id="email" type="text" placeholder="Your Email">
+            <label for="message">Message</label>
+            <input id="message" type="text" placeholder="Write message here...">
+            <input type="submit">
         </form>
     </div> 
-
-    <div>
-        <h6>Copyright ©</h6>
-    </div>
+</div>
+    <footer class="footer">
+        Copyright ©
+    </footer>
 
 </body>
 </html>
